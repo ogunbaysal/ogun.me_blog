@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{118:function(n,e,o){"use strict";o.r(e),e.default={title:"Ogün Baysal",description:"Ogün Baysal - Kişisel Blog"}}}]);

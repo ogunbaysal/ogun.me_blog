@@ -35,7 +35,7 @@ Using the asynchronous function <inline-code>asyncData</inline-code> that Nuxt p
 
 ```javascript
 import blogsEn from '~/contents/en/blogsEn.js'
-import blogsEs from '~/contents/es/blogsEs.js'
+import blogsEs from '~/contents/tr/blogsTR.js'
 
 async asyncData ({app}) {
   const blogs = app.i18n.locale === 'en' ? blogsEn : blogsEs
@@ -58,7 +58,7 @@ The reason why I'm importing the arrays containing the blogs names is because I 
 
 ```javascript
 import blogsEn from '~/contents/en/blogsEn.js'
-import blogsEs from '~/contents/es/blogsEs.js'
+import blogsEs from '~/contents/tr/blogsTR.js'
 
 generate: {
   routes: [
